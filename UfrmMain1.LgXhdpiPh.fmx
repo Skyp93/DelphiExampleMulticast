@@ -1,0 +1,88 @@
+inherited frmMain_LgXhdpiPh: TfrmMain_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited mainVertScb: TVertScrollBox
+    Size.Width = 450.000000000000000000
+    Size.Height = 442.000000000000000000
+    Viewport.Width = 434.000000000000000000
+    Viewport.Height = 442.000000000000000000
+    inherited GbSetting: TGroupBox
+      Size.Width = 434.000000000000000000
+      Size.Height = 257.000000000000000000
+      inherited lbCastIndex: TLabel
+        Margins.Top = 23.000000000000000000
+        Position.Y = 23.000000000000000000
+        Size.Width = 399.000000000000000000
+      end
+      inherited ESrvIndex: TEdit
+        Position.Y = 40.000000000000000000
+        Size.Width = 364.000000000000000000
+      end
+      inherited LbPort: TLabel
+        Position.Y = 72.000000000000000000
+        Size.Width = 364.000000000000000000
+      end
+      inherited NBPort: TNumberBox
+        Position.Y = 89.000000000000000000
+        Size.Width = 364.000000000000000000
+        Size.Height = 40.000000000000000000
+      end
+      inherited lbCastGroup: TLabel
+        Position.Y = 129.000000000000000000
+        Size.Width = 364.000000000000000000
+      end
+      inherited EMCastGroup: TEdit
+        Position.Y = 146.000000000000000000
+        Size.Width = 364.000000000000000000
+      end
+      inherited lbTtl: TLabel
+        Position.Y = 178.000000000000000000
+        Size.Width = 364.000000000000000000
+      end
+      inherited NBTttl: TNumberBox
+        Position.Y = 195.000000000000000000
+        Size.Width = 364.000000000000000000
+      end
+      inherited CBUseSugar: TCheckBox
+        Position.Y = 227.000000000000000000
+        Size.Width = 364.000000000000000000
+      end
+    end
+    inherited MChat: TMemo
+      Position.Y = 266.000000000000000000
+      Size.Width = 414.000000000000000000
+      Size.Height = 295.000000000000000000
+      Viewport.Width = 414.000000000000000000
+      Viewport.Height = 295.000000000000000000
+    end
+  end
+  inherited lbipCap: TLabel
+    Size.Width = 450.000000000000000000
+  end
+  inherited LbSetIp: TLabel
+    Size.Width = 415.000000000000000000
+    Size.Height = 32.000000000000000000
+  end
+  inherited GbMes: TGroupBox
+    Position.Y = 491.000000000000000000
+    Size.Width = 450.000000000000000000
+    inherited MMessage: TMemo
+      Margins.Top = 20.000000000000000000
+      Size.Width = 442.000000000000000000
+      Size.Height = 76.000000000000000000
+      Viewport.Width = 442.000000000000000000
+      Viewport.Height = 76.000000000000000000
+    end
+  end
+  inherited LayManageSrv: TLayout
+    Position.Y = 591.000000000000000000
+    Size.Width = 450.000000000000000000
+    inherited BtnStartSrv: TButton
+      Size.Width = 450.000000000000000000
+    end
+    inherited BtnStartList: TButton
+      Size.Width = 450.000000000000000000
+    end
+  end
+end
